@@ -89,7 +89,7 @@ target_compile_options(${PROJECT_NAME}
 
 
 # Qt moc'ing
-qt5_wrap_cpp( HDRS_MOC
+qt_wrap_cpp( HDRS_MOC
   hidmanager/hidaction.h
   hidmanager/hidmanager.h
   hidmanager/hidmanagertreemodel.h
