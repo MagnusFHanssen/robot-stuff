@@ -1,3 +1,0 @@
-[submodule "gmlib"]
-	path = gmlib
-	url = git@source.coderefinery.org:gmlib/gmlib1/gmlib.git
