@@ -136,3 +136,6 @@ target_sources( ${PROJECT_NAME} PRIVATE
   scenario.cpp
   )
 
+# Linking vcpkg libraries (hopefully)
+find_package(Bullet CONFIG REQUIRED)
+target_link_libraries(${PROJECT_NAME} LinearMath Bullet3Common BulletDynamics BulletSoftBody)
