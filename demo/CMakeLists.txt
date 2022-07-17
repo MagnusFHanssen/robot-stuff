@@ -134,6 +134,11 @@ target_sources( ${PROJECT_NAME} PRIVATE
   application/main.cpp
 
   scenario.cpp
+
+
+
+  robot/bittle.cpp
+  robot/world.cpp
   )
 
 # Linking vcpkg libraries (hopefully)
